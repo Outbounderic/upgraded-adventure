@@ -9,22 +9,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
     <!-- The style tag needs to be migrated to the style.css -->
-    <style>
-      /* Style all font awesome icons */
-      .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 50px;
-        text-align: center;
-        text-decoration: none;
-      }
-
-      /* Add a hover effect if you want */
-      .fa:hover {
-        opacity: 0.7;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -32,9 +18,18 @@
       <a
         href="https://www.linkedin.com/in/ericdvanmeter/"
         class="fa fa-linkedin"
+        target="_blank"
       ></a>
-      <a href="https://github.com/Outbounderic" class="fa fa-github"></a>
-      <a href="https://twitter.com/Outbound_er" class="fa fa-twitter"></a>
+      <a
+        href="https://github.com/Outbounderic"
+        class="fa fa-github"
+        target="_blank"
+      ></a>
+      <a
+        href="https://twitter.com/Outbound_er"
+        class="fa fa-twitter"
+        target="_blank"
+      ></a>
     </header>
     <main>
       <h2>About me</h2>
@@ -47,11 +42,13 @@
         <br />
         <br />
         A resume can be provided upon request through
-        <a href="https://www.linkedin.com/in/ericdvanmeter/">LinkedIn</a>.
+        <a href="https://www.linkedin.com/in/ericdvanmeter/" target="_blank"
+          >LinkedIn</a
+        >.
       </p>
       <!-- Break the skills list into a list of tables? Or use styling to make it look like a table -->
       <h3>Skills</h3>
-      <ul>
+      <ul class="lists">
         <li>Html/Css</li>
         <li>Sass</li>
         <li>JavaScript</li>
@@ -65,30 +62,30 @@
         <li>PostgreSQL</li>
         <li>ThreeJS</li>
       </ul>
-      <!-- Turn aside into a carousel -->
-      <aside>
-        <h3>Projects</h3>
-        <ul>
-          <li>
-            <div>
-              <h4>Title</h4>
-              <a href="#"><img src="#" alt="Picture of first project" /></a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <h4>Title</h4>
-              <a href="#"><img src="#" alt="Picture of second project" /></a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <h4>Title</h4>
-              <a href="#"><img src="#" alt="Picture of third project" /></a>
-            </div>
-          </li>
-        </ul>
-      </aside>
     </main>
+    <!-- Turn aside into a carousel -->
+    <aside>
+      <h3>Projects</h3>
+      <ul class="lists">
+        <li>
+          <div>
+            <h4>Title</h4>
+            <a href="#"><img src="#" alt="Picture of first project" /></a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h4>Title</h4>
+            <a href="#"><img src="#" alt="Picture of second project" /></a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h4>Title</h4>
+            <a href="#"><img src="#" alt="Picture of third project" /></a>
+          </div>
+        </li>
+      </ul>
+    </aside>
   </body>
 </html>
