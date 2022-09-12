@@ -7,10 +7,11 @@
 ### Version 0.0.1
 
 Goals of this Project:
-Creating a static website utilizing HTML/CSS
-Header with name and social links
-Body with brief introduction, list of current completed projects, and future projects
-Host this project on AWS platform
+
+- [ ] Creating a static website utilizing HTML/CSS
+- [ ] Header with name and social links
+- [ ] Body with brief introduction, list of current completed projects, and future projects
+- [ ] Host this project on AWS platform
 
 ---
 
