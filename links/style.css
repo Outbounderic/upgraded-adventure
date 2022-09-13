@@ -16,6 +16,8 @@
 body {
   background-color: var(--white);
   font-size: 18px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 header {
@@ -101,4 +103,5 @@ h3 {
 
 .cert_img {
   width: 200px;
+  height: 200px;
 }
