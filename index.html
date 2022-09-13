@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./links/style.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -28,26 +28,29 @@
       href="./images/favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="./images/favicon/site.webmanifest" />
-    <!-- The style tag needs to be migrated to the style.css -->
+    <link rel="stylesheet" href="./links/css-grid.html" />
+    <link rel="stylesheet" href="./links/flexbox.html" />
   </head>
   <body>
     <header>
       <h1>Eric Van Meter</h1>
-      <a
-        href="https://www.linkedin.com/in/ericdvanmeter/"
-        class="fa fa-linkedin"
-        target="_blank"
-      ></a>
-      <a
-        href="https://github.com/Outbounderic"
-        class="fa fa-github"
-        target="_blank"
-      ></a>
-      <a
-        href="https://twitter.com/Outbound_er"
-        class="fa fa-twitter"
-        target="_blank"
-      ></a>
+      <div class="socials-nav">
+        <a
+          href="https://www.linkedin.com/in/ericdvanmeter/"
+          class="fa fa-linkedin"
+          target="_blank"
+        ></a>
+        <a
+          href="https://github.com/Outbounderic"
+          class="fa fa-github"
+          target="_blank"
+        ></a>
+        <a
+          href="https://twitter.com/Outbound_er"
+          class="fa fa-twitter"
+          target="_blank"
+        ></a>
+      </div>
     </header>
     <main>
       <h2>About me</h2>
@@ -71,62 +74,64 @@
       </p>
       <!-- Break the skills list into a list of tables? Or use styling to make it look like a table -->
       <h3>Skills</h3>
-      <h4>Programming</h4>
-      <ul class="lists">
-        <li>Html/Css</li>
-        <li>Sass</li>
-        <li>JavaScript</li>
-        <li>NodeJS</li>
-        <li>Express</li>
-        <li>Python</li>
-        <li>Ruby</li>
-        <li>Ruby on Rails</li>
-        <li>ReactJS</li>
-        <li>MongoDB</li>
-        <li>PostgreSQL</li>
-      </ul>
-      <h4>Information technology</h4>
-      <ul class="lists">
-        <li>Customer Service</li>
-        <li>IT Fundamentals</li>
-        <li>Computer Troubleshooting</li>
-        <li>Device Repair</li>
-        <li>Windows/Linux/Mac</li>
-        <li>Device Imaging</li>
-        <li>Software Installation/Updating</li>
-        <li>Device Distribution/Rollout</li>
-      </ul>
-      <h4>Information Security</h4>
-      <ul class="lists">
-        <li>Cryptography</li>
-        <li>Social Engineering</li>
-        <li>Malware Analysis</li>
-        <li>Network Fundamentals</li>
-      </ul>
+      <div class="skill_container">
+        <div class="skill_card">
+          <h4>Programming</h4>
+          <ul class="lists">
+            <li>Html/Css</li>
+            <li>JavaScript</li>
+            <li>NodeJS</li>
+            <li>Express</li>
+            <li>Ruby</li>
+            <li>Ruby on Rails</li>
+            <li>ReactJS</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+            <li>Version Control (Git/Github)</li>
+          </ul>
+        </div>
+        <div class="skill_card">
+          <h4>Information technology</h4>
+          <ul class="lists">
+            <li>Customer Service</li>
+            <li>IT Fundamentals</li>
+            <li>Computer Troubleshooting</li>
+            <li>Device Repair</li>
+            <li>Windows/Linux/Mac</li>
+            <li>Device Imaging</li>
+            <li>Software Installation/Updating</li>
+            <li>Device Distribution/Rollout</li>
+            <li>AWS</li>
+          </ul>
+        </div>
+        <div class="skill_card">
+          <h4>Information Security</h4>
+          <ul class="lists">
+            <li>Python</li>
+            <li>Cryptography</li>
+            <li>Social Engineering</li>
+            <li>Malware Analysis</li>
+            <li>Network Fundamentals</li>
+          </ul>
+        </div>
+      </div>
     </main>
     <!-- Turn aside into a carousel -->
     <aside>
-      <h3>Projects</h3>
-      <ul class="lists">
-        <li>
-          <div>
-            <h4>Title</h4>
-            <a href="#"><img src="#" alt="Picture of first project" /></a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <h4>Title</h4>
-            <a href="#"><img src="#" alt="Picture of second project" /></a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <h4>Title</h4>
-            <a href="#"><img src="#" alt="Picture of third project" /></a>
-          </div>
-        </li>
-      </ul>
+      <h3>Certifications</h3>
+      <div class="skill_container">
+        <ul class="lists">
+          <li>
+            <div>
+              <img
+                class="cert_img"
+                src="./images/ITF+ Logo Certified.png"
+                alt="Comptia ITF+ certification"
+              />
+            </div>
+          </li>
+        </ul>
+      </div>
     </aside>
   </body>
 </html>

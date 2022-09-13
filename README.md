@@ -11,7 +11,7 @@
 - [x] Creating a static website utilizing HTML/CSS
 - [x] Header with name and social links
 - [x] Body with brief introduction, list of current completed projects, skills, ~~and future projects~~
-- [ ] Host this project on [AWS platform](https://aws.amazon.com/getting-started/)
+- [x] Host this project on [AWS platform](https://aws.amazon.com/getting-started/)
 
 ---
 
