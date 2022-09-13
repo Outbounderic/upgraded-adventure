@@ -10,6 +10,7 @@
 * {
   font-family: sans-serif;
   color: var(--gray);
+  text-align: center;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
   font-size: 18px;
 }
 
-a {
+a:link {
   text-decoration: none;
   color: var(--da-green);
 }
