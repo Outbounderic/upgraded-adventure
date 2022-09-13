@@ -16,6 +16,8 @@
 body {
   background-color: var(--white);
   font-size: 18px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 header {
