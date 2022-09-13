@@ -1,0 +1,104 @@
+:root {
+  --white: #f1f1f1;
+  --gray: #394053;
+  --da-brown: #4e4a59;
+  --li-brown: #817271;
+  --da-green: #839073;
+  --li-green: #7cae7a;
+}
+
+* {
+  font-family: sans-serif;
+  color: var(--gray);
+  text-align: center;
+}
+
+body {
+  background-color: var(--white);
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--da-green);
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  color: var(--da-green);
+  font-size: 22px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.socials-nav {
+  margin: 0px;
+}
+
+.lists {
+  padding: 20px;
+  list-style: none;
+}
+
+.skill_container {
+  margin: 0px 0px 20px 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill_card {
+  flex: 1 1 0px;
+  border: solid 2px var(--li-green);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.skill_card li {
+  padding: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.skill_card h4 {
+  text-decoration: underline;
+  padding: 0px;
+  margin: 0px;
+}
+
+.cert_img {
+  width: 200px;
+}
